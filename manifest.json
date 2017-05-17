@@ -1,0 +1,30 @@
+{
+  // Required
+	"manifest_version": 2,
+	
+	"name": "First",
+	
+	"version": "1.0",
+	
+	"description": "First extension",
+	
+	"options_page": "options.html",
+	
+	"permissions" :[
+					"notifications"
+					],
+	
+	"background":{
+						"scripts":[
+									"scrs/background.js"
+									],
+						"persistent": false						
+				},
+	"icons":{"128":"icon1.png"},
+  // Recommended
+	
+	"browser_action" :
+						{
+						"default_title" : "FIRST"
+						}
+}
